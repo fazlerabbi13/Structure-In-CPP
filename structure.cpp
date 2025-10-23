@@ -13,6 +13,9 @@ int main(){
     Person p;
 
     cin >> p.name;
+    cin >> p.age;
+    cin >> p.salary;
+
     cout << p.name << "\n";
 
 
