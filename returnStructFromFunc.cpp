@@ -14,3 +14,18 @@ int main(){
 
     return 0;
 }
+
+Person getData(){
+    Person p;
+
+    string name;
+    int age;
+    float salary;
+
+    cin >> name;
+    cin >> age;
+    cin >> salary;
+
+    return Person{name,age,salary};
+}
+
