@@ -17,6 +17,8 @@ int main(){
     cin >> p.salary;
 
     cout << p.name << "\n";
+    cout << p.age << "\n";
+    cout << p.salary << "\n";
 
 
     return 0;
