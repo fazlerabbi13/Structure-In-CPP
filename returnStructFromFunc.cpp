@@ -12,6 +12,8 @@ void displayData(const Person&);
 
 int main(){
 
+    
+
     return 0;
 }
 
@@ -27,5 +29,11 @@ Person getData(){
     cin >> salary;
 
     return Person{name,age,salary};
+}
+
+void displayData(const Person& p){
+    cout << p.name << "\n";
+    cout << p.age << "\n";
+    cout << p.salary << "\n";
 }
 
