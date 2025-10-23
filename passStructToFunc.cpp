@@ -1,4 +1,5 @@
 #include<iostream>
+#include <string>
 using namespace std;
 
 struct Person
@@ -8,12 +9,12 @@ struct Person
     float salary;
 };
 
-void dispalyData(const Person&);
+void displayData(const Person&);
 
 int main(){
     Person p {"Rabbi",22,80000};
 
-    dispalyData(p);
+    displayData(p);
 
     return 0;
 }
