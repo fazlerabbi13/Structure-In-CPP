@@ -21,6 +21,8 @@ int main(){
     cin >> p.age;
     cin >> p.salary;
 
+    cout << "all details" << "\n";
+    p.displayInfo();
     
     return 0;
 }
