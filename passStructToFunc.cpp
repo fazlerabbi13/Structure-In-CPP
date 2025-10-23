@@ -18,8 +18,8 @@ int main(){
     return 0;
 }
 
-// void displayData(const Person& p){
-//     cout << p.name << "\n";
-//     cout << p.age << "\n";
-//     cout << p.salary << "\n";
-// }
+void displayData(const Person& p){
+    cout << p.name << "\n";
+    cout << p.age << "\n";
+    cout << p.salary << "\n";
+}
