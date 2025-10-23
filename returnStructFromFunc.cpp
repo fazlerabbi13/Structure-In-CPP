@@ -1,18 +1,20 @@
 #include<iostream>
+#include<string>
 using namespace std;
 
 struct Person{
     string name;
     int age;
     float salary;
-}
+};
 
 Person getData();
 void displayData(const Person&);
 
 int main(){
 
-    
+    Person p = getData();
+    displayData(p);
 
     return 0;
 }
@@ -24,7 +26,7 @@ Person getData(){
     int age;
     float salary;
 
-    cin >> name;
+    getline(cin,name);
     cin >> age;
     cin >> salary;
 
