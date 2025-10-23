@@ -7,6 +7,9 @@ struct Person{
     float salary;
 }
 
+Person getData();
+void displayData(const Person&);
+
 int main(){
 
     return 0;
