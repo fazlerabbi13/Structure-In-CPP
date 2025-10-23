@@ -13,7 +13,7 @@ void dispalyData(const Person&);
 int main(){
     Person p {"Rabbi",22,80000};
 
-    // dispalyData(p);
+    dispalyData(p);
 
     return 0;
 }
